@@ -1,17 +1,14 @@
-import "./Rating.scss";
 import { ReactComponent as StarIcon } from "../assets/icon-star.svg";
 import { ReactComponent as CellphoneIcon } from "../assets/illustration-thank-you.svg";
 import { useState } from "react";
 import { TbArrowBackUp } from "react-icons/tb";
+import "./Rating.scss";
 
 export default function Rating() {
-  const [rating, setRating] = useState(0);
-  const [submitted, setSubmitted] = useState(false);
+  const [rating, setRating] = useState<number>(0);
+  const [submitted, setSubmitted] = useState<boolean>(false);
 
-  const changeRating = (e) => {
-    const rating = +e.target.getAttribute("value");
-    setRating(rating);
-  };
+  const changeRating = (rating: number) => setRating(rating);
 
   return (
     <div className="main-container">
@@ -26,36 +23,31 @@ export default function Rating() {
         </p>
         <div className="rating-wrapper">
           <div
-            value="1"
-            onClick={changeRating}
+            onClick={() => changeRating(1)}
             className={`rating ${rating === 1 ? "selected" : ""}`}
           >
             1
           </div>
           <div
-            value="2"
-            onClick={changeRating}
+            onClick={() => changeRating(2)}
             className={`rating ${rating === 2 ? "selected" : ""}`}
           >
             2
           </div>
           <div
-            value="3"
-            onClick={changeRating}
+            onClick={() => changeRating(3)}
             className={`rating ${rating === 3 ? "selected" : ""}`}
           >
             3
           </div>
           <div
-            value="4"
-            onClick={changeRating}
+            onClick={() => changeRating(4)}
             className={`rating ${rating === 4 ? "selected" : ""}`}
           >
             4
           </div>
           <div
-            value="5"
-            onClick={changeRating}
+            onClick={() => changeRating(5)}
             className={`rating ${rating === 5 ? "selected" : ""}`}
           >
             5
