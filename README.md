@@ -1,48 +1,43 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Features](#features)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-### The challenge
+### Features
 
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+A modern and responsive UI element built with React, Typescript, and Sass. It provides users with an interactive way to rate a product or service with a scale of 1 to 5. The component is highly reusable, making it a great addition to any React-based application. To ensure its quality and reliability, the component have been thoroughly tested with the vitest library.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Vercel](https://interactive-rating-component-sable-ten.vercel.app/)
 
 ### Built with
 
-- SCSS
-- React-Icons
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+The app was built using a number of different technologies and tools, including:
 
-### Continued development
+- [Vite]("https://vitejs.dev/"): a fast build tool that allows for rapid development and quick feedback loops
+- [TypeScript]("https://www.typescriptlang.org/"): a statically-typed superset of JavaScript that provides better code reliability and improved tooling
+- [React]("https://react.dev/"): a popular JavaScript library for building user interfaces
+- [Sass]("https://sass-lang.com/"): a preprocessor scripting language that extends CSS and provides more features and flexibility
+- [Vitest]("https://vitest.dev/"): a testing library specifically designed for use with Vite and Vue applications
+- [React Testing Library]("https://testing-library.com/"): a testing utility for React that allows for easy and efficient testing of UI components
+- [React Icons]("https://react-icons.github.io/react-icons/"): a library for modern looking icons
 
 ## Author
 
+Cosmin Bozai
+
 ## Acknowledgments
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
